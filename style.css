@@ -23,6 +23,8 @@ h3 {
 .contact-info {
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .text-info {
@@ -53,7 +55,8 @@ h4 {
 
 h2 {
     font-size: 24px;
-    color: black;
+    color: white;
+    text-align: center;
 }
 
 .info {
@@ -115,7 +118,8 @@ h2 {
 .get-in-touch {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 22px;
+    text-align: center;
 }
 
 a {
@@ -126,3 +130,5 @@ a {
     color: red;
     font-size: 12px;
 }
+
+
