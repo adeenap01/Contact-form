@@ -1,2 +1,2 @@
-A simple contact form made by using HTML & CSS.
+Created a Contact Form with HTML , CSS & JS.
 
