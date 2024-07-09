@@ -41,14 +41,22 @@
         </div>
         <div class="form-page">
             <h2 class="get-in-touch"> get in touch with us </h2>
-            <form class="contact-form">
+            <form class="contact-form" id="contactForm">
                 <input name="Name" id="name" placeholder="Name" type="text" class="inputs form-elements-size" required>
                 <input name="Email" id="email" placeholder="Email" type="email" class="inputs form-elements-size" required>
+                <span id="emailError" class="error-message"></span>
+                <input name="Phone" id="phone" placeholder="Phone" type="tel" class="inputs form-elements-size" required>
+                <span id="phoneError" class="error-message"></span>
+                <input name="Password" id="password" placeholder="Password" type="password" class="inputs form-elements-size" required>
+                <span id="passwordError" class="error-message"></span>
+                <input name="Confirm Password" id="confirm-password" placeholder="Confirm Password" type="password" class="inputs form-elements-size" required>
+                <span id="confirmPasswordError" class="error-message"></span>
                 <input name="Subject" id="subject" placeholder="Subject" type="text" class="inputs form-elements-size" required>
                 <textarea name="Message" id="message" placeholder="Message" class="form-elements-size" required></textarea>
                 <input type="submit" class="send-button form-elements-size" value="send message">
             </form>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
